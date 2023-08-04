@@ -1,5 +1,5 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:note_taking_app_mvvm/models/note.dart';
+import 'package:note_taking_app_mvvm/models/note_model.dart';
 
 class NoteViewModel extends Cubit<List<Note>> {
   NoteViewModel() : super([]);
