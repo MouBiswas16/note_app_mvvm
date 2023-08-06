@@ -2,8 +2,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:note_taking_app_mvvm/models/note_model.dart';
-import 'package:note_taking_app_mvvm/viewmodels/note_view_model.dart';
+import 'package:note_app_mvvm/models/note_model.dart';
+import 'package:note_app_mvvm/viewmodels/note_view_model.dart';
 
 class NoteListView extends StatelessWidget {
   final NoteViewModel viewModel = NoteViewModel();
